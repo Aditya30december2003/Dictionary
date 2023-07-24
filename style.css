@@ -1,0 +1,81 @@
+body{
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0263cb;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 50vw;
+    padding: 0rem 0rem 5rem 0rem;
+    background-color: white;
+    margin: 5rem 20rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input{
+    margin: 5rem 3rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid  #0263cb;
+    width: 30vw;
+    font-size: 1rem;
+    padding: 0.4rem 0.4rem;
+}
+button{
+    width: 7rem;
+    height: 2.7rem;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #0263cb ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.word-info{
+    margin: -1rem 3rem;
+}
+.word{
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.type-info{
+    display: flex;
+    opacity: 0.5;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.phonetic{
+    margin-left: 0.5rem;
+    font-style: italic;
+}
+
+.meaning{
+    margin: 2rem 0rem;
+}
+.line-container{
+    background-color: #0263cb;
+    width: 0.4rem;
+    height: 1.7rem;
+}
+.sentence{
+    display: flex;
+    margin: 0rem 1rem;
+   align-items: center;
+}
+
+.sentence p{
+    margin: 1rem 0.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.word-info{
+    display: none;
+}
